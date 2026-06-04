@@ -1,0 +1,18 @@
+{
+  "name": "api-hari-libur",
+  "version": "1.0.0",
+  "description": "API Hari Libur Indonesia using Bun",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/main.ts"
+  },
+  "dependencies": {
+    "hono": "^4.4.2",
+    "@hono/zod-validator": "^0.2.2",
+    "zod": "^3.23.8",
+    "linkedom": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

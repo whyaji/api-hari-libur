@@ -1,6 +1,6 @@
 # API Hari Libur Indonesia
 
-This repository contains a Deno-based API application that provides information
+This repository contains a Bun-based API application that provides information
 about public holidays in Indonesia. The holiday data is sourced from
 [tanggalans.com](https://www.tanggalans.com/), offering up-to-date and accurate
 information.
@@ -9,9 +9,9 @@ information.
 
 ### Prerequisites
 
-Ensure that you have Deno installed on your machine. You can install Deno by
-following the instructions on the official Deno website:
-[Deno Installation](https://deno.land/#installation).
+Ensure that you have Bun installed on your machine. You can install Bun by
+following the instructions on the official Bun website:
+[Bun Installation](https://bun.sh/).
 
 ### Getting Started
 
@@ -30,11 +30,12 @@ following the instructions on the official Deno website:
 3. Run the application:
 
    ```bash
-   deno task dev
+   bun install
+   bun run dev
    ```
 
-   This command will start the Deno application, and the API will be accessible
-   at `http://localhost:8000`.
+   This command will start the Bun application, and the API will be accessible
+   at `http://localhost:3000`.
 
 ### API Demo
 
@@ -49,8 +50,7 @@ for details.
 ## Acknowledgments
 
 - The holiday data is sourced from [tanggalans.com](https://www.tanggalans.com/).
-- Special thanks to the Deno community for providing a robust and secure
-  runtime.
+- Special thanks to the Bun and Hono communities.
 
 Feel free to contribute to this project or use it in your applications! If you
 encounter any issues or have suggestions for improvement, please open an issue
